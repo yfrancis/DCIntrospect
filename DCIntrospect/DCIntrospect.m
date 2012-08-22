@@ -618,9 +618,15 @@ id UITextInputTraits_valueForKey(id self, SEL _cmd, NSString *key)
 		}
 		else if ([string isEqualToString:kDCIntrospectKeysEnterGDB])
 		{
-			UIView *view = self.currentView;
-			view.tag = view.tag;	// suppress the xcode warning about an unused variable.
-			NSLog(@"DCIntrospect: access current view using local 'view' variable.");
+			UIView __attribute__((unused)) *view = self.currentView;
+			UIViewController __attribute__((unused)) *viewController;
+			UIView *v = view;
+			while(v) {
+				object_getInstanceVariable(v, "_viewDelegate", (void**)&viewController);
+				if(viewController) break;
+				v = v.superview;
+			}
+			NSLog(@"DCIntrospect: access current view using local 'view' variable, or its view controller via 'viewController'");
 			DEBUGGER;
 			return NO;
 		}
