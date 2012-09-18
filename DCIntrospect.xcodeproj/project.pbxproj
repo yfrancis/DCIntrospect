@@ -268,7 +268,7 @@
 			};
 			name = AdHoc;
 		};
-		13A72A6B15E3147200B781E5 /* Development-Staging */ = {
+		13A72A6B15E3147200B781E5 /* DevelopmentStaging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,9 +290,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
-			name = "Development-Staging";
+			name = DevelopmentStaging;
 		};
-		13A72A6C15E3147200B781E5 /* Development-Staging */ = {
+		13A72A6C15E3147200B781E5 /* DevelopmentStaging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/DCIntrospect.dst;
@@ -302,9 +302,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = "Development-Staging";
+			name = DevelopmentStaging;
 		};
-		13A72A6D15E3147400B781E5 /* Development-Local */ = {
+		13A72A6D15E3147400B781E5 /* DevelopmentLocal */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,9 +326,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
-			name = "Development-Local";
+			name = DevelopmentLocal;
 		};
-		13A72A6E15E3147400B781E5 /* Development-Local */ = {
+		13A72A6E15E3147400B781E5 /* DevelopmentLocal */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/DCIntrospect.dst;
@@ -338,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = "Development-Local";
+			name = DevelopmentLocal;
 		};
 /* End XCBuildConfiguration section */
 
@@ -347,8 +347,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13A72A4015E30CF500B781E5 /* Development */,
-				13A72A6D15E3147400B781E5 /* Development-Local */,
-				13A72A6B15E3147200B781E5 /* Development-Staging */,
+				13A72A6D15E3147400B781E5 /* DevelopmentLocal */,
+				13A72A6B15E3147200B781E5 /* DevelopmentStaging */,
 				13A72A4115E30CF500B781E5 /* AdHoc */,
 				137C360D15E315D100CFC29B /* AppStore */,
 			);
@@ -359,8 +359,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13A72A4315E30CF500B781E5 /* Development */,
-				13A72A6E15E3147400B781E5 /* Development-Local */,
-				13A72A6C15E3147200B781E5 /* Development-Staging */,
+				13A72A6E15E3147400B781E5 /* DevelopmentLocal */,
+				13A72A6C15E3147200B781E5 /* DevelopmentStaging */,
 				13A72A4415E30CF500B781E5 /* AdHoc */,
 				137C360E15E315D100CFC29B /* AppStore */,
 			);
