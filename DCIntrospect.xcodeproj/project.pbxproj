@@ -172,7 +172,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		137C360D15E315D100CFC29B /* AppStore */ = {
+		137C360D15E315D100CFC29B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,9 +188,9 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = AppStore;
+			name = Release;
 		};
-		137C360E15E315D100CFC29B /* AppStore */ = {
+		137C360E15E315D100CFC29B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/DCIntrospect.dst;
@@ -200,9 +200,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = AppStore;
+			name = Release;
 		};
-		13A72A4015E30CF500B781E5 /* Development */ = {
+		13A72A4015E30CF500B781E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,27 +224,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
-			name = Development;
+			name = Debug;
 		};
-		13A72A4115E30CF500B781E5 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AdHoc;
-		};
-		13A72A4315E30CF500B781E5 /* Development */ = {
+		13A72A4315E30CF500B781E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/DCIntrospect.dst;
@@ -254,91 +236,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = Development;
-		};
-		13A72A4415E30CF500B781E5 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/DCIntrospect.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCIntrospect/DCIntrospect-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = AdHoc;
-		};
-		13A72A6B15E3147200B781E5 /* DevelopmentStaging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				SDKROOT = iphoneos;
-			};
-			name = DevelopmentStaging;
-		};
-		13A72A6C15E3147200B781E5 /* DevelopmentStaging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/DCIntrospect.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCIntrospect/DCIntrospect-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = DevelopmentStaging;
-		};
-		13A72A6D15E3147400B781E5 /* DevelopmentLocal */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				SDKROOT = iphoneos;
-			};
-			name = DevelopmentLocal;
-		};
-		13A72A6E15E3147400B781E5 /* DevelopmentLocal */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/DCIntrospect.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCIntrospect/DCIntrospect-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = DevelopmentLocal;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -346,26 +244,20 @@
 		13A72A2E15E30CF500B781E5 /* Build configuration list for PBXProject "DCIntrospect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13A72A4015E30CF500B781E5 /* Development */,
-				13A72A6D15E3147400B781E5 /* DevelopmentLocal */,
-				13A72A6B15E3147200B781E5 /* DevelopmentStaging */,
-				13A72A4115E30CF500B781E5 /* AdHoc */,
-				137C360D15E315D100CFC29B /* AppStore */,
+				13A72A4015E30CF500B781E5 /* Debug */,
+				137C360D15E315D100CFC29B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = AppStore;
+			defaultConfigurationName = Release;
 		};
 		13A72A4215E30CF500B781E5 /* Build configuration list for PBXNativeTarget "DCIntrospect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13A72A4315E30CF500B781E5 /* Development */,
-				13A72A6E15E3147400B781E5 /* DevelopmentLocal */,
-				13A72A6C15E3147200B781E5 /* DevelopmentStaging */,
-				13A72A4415E30CF500B781E5 /* AdHoc */,
-				137C360E15E315D100CFC29B /* AppStore */,
+				13A72A4315E30CF500B781E5 /* Debug */,
+				137C360E15E315D100CFC29B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = AppStore;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
